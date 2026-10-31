@@ -64,14 +64,14 @@
 }
 
 :root {
-  color-scheme: light;
-  --background: #fcfcfc;
-  --foreground: #1d2226;
-  --card: #fafafa;
-  --card-foreground: #1d2226;
+  color-scheme: dark;
+  --background: #161c21;
+  --foreground: #fafafa;
+  --card: #161c21;
+  --card-foreground: #fafafa;
   --popover: #fcfcfc;
   --popover-foreground: #1d2226;
-  --primary: #006eb6;
+  --primary: #fff120;
   --primary-foreground: #fcfcfc;
   --secondary: #ebeff1;
   --secondary-foreground: #243037;

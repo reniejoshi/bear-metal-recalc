@@ -13,21 +13,19 @@ export default function Logo({
     <span className="inline-flex flex-col items-center">
       <div className="relative flex items-center gap-1">
         <img
-          src="/logo/motor.svg"
+          src="/logo/bear-metal-logo.svg"
           alt="ReCalc Logo"
           className={cn(
-            'h-12 w-12',
-            color === 'white' ? 'svg-white' : 'svg-black',
+            'h-12 w-12 svg-black',
           )}
           style={{ verticalAlign: alignment === 'bottom' ? 'sub' : 'middle' }}
         />
         <span
           className={cn(
-            'relative text-3xl font-light',
-            color === 'white' ? 'text-white' : 'text-black',
+            'relative text-3xl font-light text-black',
           )}
         >
-          <span className="relative z-10 inline-block">ReCalc</span>
+          <span className="relative z-10 inline-block">Bear Metal</span>
           {color === 'white' ? (
             <>
               {/* Shiny gradient overlay */}
@@ -42,7 +40,7 @@ export default function Logo({
                   WebkitTextFillColor: 'transparent',
                 }}
               >
-                ReCalc
+                Bear Metal
               </span>
             </>
           ) : (

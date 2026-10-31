@@ -67,12 +67,11 @@ function Hero() {
       <div className="relative">
         {/* Heading */}
         <h1 className="mb-5 text-6xl font-bold tracking-tight text-foreground md:text-8xl">
-          ReCalc
+          BearCalc
         </h1>
         {/* Tagline */}
-        <p className="mx-auto max-w-lg text-base text-muted-foreground md:text-lg">
-          A collaboration-focused mechanical design calculator for FIRST
-          Robotics.
+        <p className="mx-auto max-w-lg text-base text-white md:text-lg">
+          A collaboration-focused mechanical design calculator for Bear Metal 2046.
         </p>
       </div>
     </div>
